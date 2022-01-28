@@ -5,10 +5,13 @@ pragma solidity ^0.8.0;
 import "hardhat/console.sol";
 
 contract WavePortal {
+    uint256 totalWaves;
+
     constructor() {
-        console.log("Yo yo, Im sexy and I know it :)");
+        console.log("Im sexy and I know it :)");
     }
-function wave() public {
+
+    function wave() public {
         totalWaves += 1;
         console.log("%s has waved!", msg.sender);
     }
