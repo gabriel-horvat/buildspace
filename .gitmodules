@@ -1,0 +1,3 @@
+[submodule "my-wave-portal/buildspace"]
+	path = my-wave-portal/buildspace
+	url = https://github.com/gabriel-horvat/buildspace.git/
